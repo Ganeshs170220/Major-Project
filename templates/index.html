@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Chatbot</title>
+    <style>
+    .chat-box .camera,.chat-box .microphone{
+        width: 10%; 
+        margin-right: 15px;
+        line-height: 7vh;
+        color:white;
+    }
+    .chat-box .camera{
+     margin-right: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="banner container">
+        <div class="left-banner">
+            <img src="../static/bot.gif"/>
+        </div>
+        <div class="right-banner">
+            <div class="chatbot">
+                <div class="heading">
+                  <p> Chatbot</p> 
+                  <i class="fa fa-heart"></i>
+                </div>
+                <div class="chat-content">
+                    <div class="chat-input">
+                        <div class="chat-log">
+
+                            <ul id="message-list"></ul>
+                        </div>
+                    </div>
+                </div>
+               <div class="chat-box">
+                  <div class="content"></div>
+                  <div class="camera">
+                    <i class="fa fa-camera" aria-hidden="true" id="cam" style="cursor:pointer"></i>
+                  </div>
+                  <div class="microphone">
+                    <i class="fa fa-microphone" aria-hidden="true" id="mic" style="cursor:pointer"></i>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+     <script>
+  var cam = document.getElementById("cam");
+  cam.addEventListener("click", function() {
+    fetch('/cam', { method: 'GET' })
+    .then(function(response) {
+        return response.text();
+      })
+      .then(function(face_output) {
+        console.log("face emotion output : "+x);
+      });   
+    
+  });
+
+  var mic = document.getElementById("mic");
+  mic.addEventListener("click", function() {
+    fetch('/speech', { method: 'GET' })
+    .then(function(response) {
+        return response.text();
+      })
+      .then(function(speech_output) {
+        console.log("speech emotion output : "+y);
+      });
+        
+  });
+</script>
+</body>
+</html>

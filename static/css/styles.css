@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins'; 
+}
+.banner{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;    
+    background-color: #BAD7E9;        
+    display: flex;
+}
+.left-banner{
+    height: 100vh;
+    width: 50%;
+}
+.right-banner{
+    height: 100vh;
+    width: 50%;
+}
+.chatbot{
+    height: 80vh;
+    width: 55%;
+    background-color: #2B3467;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 3%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chat-box{
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.099);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+}
+img{
+    margin-top: 20vh;
+    margin-left: 30%;
+}   
+.heading{
+    height: 5vh;
+    width: 100%;   
+    background-color: rgba(255, 255, 255, 0.099);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.heading i{
+    line-height: 5vh;
+    margin-right:10px;
+}
+.heading p{
+    margin: auto;
+    line-height: 5vh;
+    margin-left: 10px;   
+}
+.chat-box .content{
+    width: 80%;
+    height: 7vh;
+}
+.chat-box .camera,.chat-box .microphone{
+    /* width: 80%; */
+    margin-right: 15px;
+    line-height: 7vh;
+    color:white;
+    cursor:'pointer';
+}
+.chat-content{
+    height: 68vh;
+    width: 100%;
+    /* background-color: ; */
+}
+.chat-log {
+    height: 65vh;
+    padding: 10px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+.chat-log::-webkit-scrollbar {
+    display: none;
+}

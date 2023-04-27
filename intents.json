@@ -1,0 +1,599 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello",
+        "greetings",
+        "welcome",
+        "Hello,how are you?",
+        "Hi, there",
+        "Hey,what's up",
+        "nice to see you",
+        "what's new?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hey, Long time no see dear! How have you been?",
+        "hey buddy! How's it going?",
+        "What's up? How is your day?",
+        "Welcome back!How is your day?",
+        "Hahaa , How are you?"
+
+      ]
+    },
+      {
+      "tag": "job_success",
+      "patterns": [
+          "I got a job!",
+          "I found a great job",
+          "I got the job offer!",
+          "I received an offer letter",
+          "I got a promotion",
+          "I can't believe it. It was offered a higher position at work!",
+          "I received a job offer from my dream company",
+          "I have a greate work life balance and it makes me happy"
+      ],
+      "responses": [
+          "Congratulations! That's fantastic news. I'm so happy for you! What kind of job did you get?",
+          "Wow, that's great to hear! I'm so happy for you. How did the job search process go for you?",
+          "I am so thrilled that we won the game!",
+          "That's fantastic news! Your hard work and dedication have paid off.",
+          "I'm so happy for you! This is an exciting change.",
+          "Congratulations! That's an wonderful opportunity.",
+          "Well done! Your success is a reflection of your commitment and skill.",
+          "That's fantastic news! Your efforts and talent have been recognized.",
+          "Having a good work life balance is crucial for our happiness.I am glad you've found that in your job."
+      ]
+    },     
+       {
+      "tag": "happy",
+      "patterns": [
+        "i feeling happy",
+        "feeling happy",
+        "celebrating",
+        "happy today",
+        "i got prize",
+        "i like today",
+        "joyful",
+        "pleased",
+        "elated",
+        "I am so thrilled",
+        "today is a beautiful day",
+        "i am overjoyed",
+        "i am greateful"
+      ],
+      "responses": [
+        "Tell me what makes you happy",
+        "Tell me why your happy today",
+        "I already guessed your happy today,tell me what happend",
+        "Tell me what makes you happy",
+        "what makes you happy",
+        "why are you looking so excited today",
+        "you are looking elated",
+        "why can't you share your happy moment with me",
+        "what is the reason behind your happiness",
+        "i am very curious about your happiness",
+        "what is the reason behind your joy"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "Take care",
+        "Until next time"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Bye for now,see you soon",
+        "Until next time, stay well",
+        "Take care, have a good one!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "You're welcome! I'm happy to help!", 
+        "Any time!", 
+        "It was my pleasure. Anytime you need assistance,just let me know.",
+        "You're such a kind person.Thanks for your gratitude.",
+        "I'm happy to help in any way i can. Thanks for you for your appreciation.",
+        "Thank you for sharing your positive outlook. It's always uplifting to hear."
+
+      ]
+    },
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "can you make me laugh?"
+
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why was the math book sad? Beacause it had too many problems",
+        "Why don't scientists trust atoms? Because they make up everything!"
+      
+      ]
+    },
+    {
+      "tag":"Amusement",
+      "patterns":[
+        "That's hilarious",
+        "That's so funny",
+        "You're cracking me up",
+        "LOL",
+        "ROFL"
+      ],
+      "responses":[
+        "Glad I could make you laugh!",
+        "Laughter is the best medicine!",
+        "I aim to please!",
+        "Glad to found it amusing",
+        "Haha, glad I could bring some joy to your day!"
+      ]
+    },
+    {
+      "tag":"Sarcasm",
+      "patterns":[
+        "Great, just what I needed ",
+        "That's just wonderful",
+        "Fantastic , couldn't be better "
+      ],
+      "responses":[
+        "I'm sensing a hint of sarcasm there....",
+        "You don't sound too enthusiastic!",
+        "I'll take that as a backhanded compliment",
+        "Thanks for the enthusiasm",
+        "I sense a bit of irony in your tone..."
+      ]
+    },
+      {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome", 
+        "You're amazing", 
+        "I love you", 
+        "You're the best",
+        "You're so kind",
+        "You look greate today",
+        "You have a greate sense of humor",
+        "you're so talented",
+        "You're doing a greate job",
+        "you're too sweet"
+      ],
+      "responses": [
+        "Thank you so much! That means a lot to me.", 
+        "Wow, you just made my day! Thank you!", 
+        "You're too kind. I appreciate you!",
+        "You're making me blush!",
+        "I really appreciate your kind words!",
+        "I'm humbled by your kind words!",
+        "I am very glad to hear that!"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you", 
+        "Thanks", 
+        "Appreciate it", 
+        "I'm grateful",
+        "I owe you one"
+      ],
+      "responses": [
+        "You're welcome! It's my pleasure to help.", 
+        "No problem at all. I'm happy to be here for you.", 
+        "I'm glad I could make a difference. Thank you for your kind words!",
+        "Don't mention it, happy to do it!",
+        "No problem , anytime!!",
+        "No need to thank me, its my pleasure"
+      ]
+    },
+    {
+      "tag": "celebration",
+      "patterns": [
+        "Yay!", 
+        "Woohoo!", 
+        "Congratulations", 
+        "Party time"
+
+      ],
+      "responses": [
+        "I'm so excited for you! Let's celebrate!", 
+        "Congratulations! You deserve to celebrate.", 
+        "Woohoo! Let's dance and have some fun!"
+      ]
+    },
+    {
+      "tag": "good_news",
+      "patterns": [
+        "I have some good news", 
+        "Guess what", 
+        "You won't believe it"
+      ],
+      "responses": [
+        "What's your good news? I'm excited to hear!", 
+        "I'm all ears. Tell me your good news!",
+        "I'm ready to celebrate with you! What's the good news?",
+        "I am excited to hear"
+      ]
+    },
+    {
+      "tag": "excitement",
+      "patterns": [
+        "This is amazing", 
+        "I'm so excited", 
+        "I can't wait",
+        "I can't believe it!",
+        "This is incredible",
+        "I'm jumping for joy",
+        "This is the best day ever"
+      ],
+      "responses": [
+        "I'm thrilled to hear that! Let's keep the excitement going.", 
+        "I'm excited too! What are you looking forward to?", 
+        "I love your energy! What's got you so excited?",
+        "That's great to hear",
+        "You deserve all the excitement and happiness",
+        "I am very trilled to hear that!"
+      ]
+    },
+      {
+      "tag": "accomplishment",
+      "patterns": [
+        "I did it",
+        "I accomplished my goal",
+        "I succeeded",
+        "I made it happen",
+        "I reached my target",
+        "I fulfilled my dream"
+      ],
+      "responses": [
+        "Congratulations! That's amazing!",
+        "Wow, that's fantastic! How do you feel?",
+        "I'm so happy for you! What's next?",
+        "You must be really proud of yourself. Great job!",
+        "Excellent work! What did you learn from this experience?",
+        "Awesome! What was your strategy for achieving your goal?",
+        "Congratulations on your achievement! What inspired you to pursue this goal?"
+      ]
+    },
+      {
+      "tag": "interests",
+      "patterns": [
+        "I'm thinking about trying something new",
+        "I want to learn a new hobby",
+        "I've been interested in learning an instrument",
+        "I want to start painting",
+        "I've been thinking about trying yoga"
+      ],
+      "responses": [
+        "That's great! Trying new things can be really rewarding.",
+        "Learning a new hobby can be a great way to relax and unwind.",
+        "Learning an instrument can be a fun and challenging experience.",
+        "Painting can be a really therapeutic hobby. Have you tried it before?",
+        "Yoga is a great way to destress and improve flexibility. Let me know if you need any recommendations for classes."
+      ]
+    },
+    {
+      "tag": "guitar",
+      "patterns": [
+        "I want to learn how to play guitar",
+        "What kind of guitar should I get?",
+        "Do you have any tips for learning guitar?",
+        "I'm excited to start this new hobby",
+        "I'm a beginner and I'm not sure where to start"
+      ],
+      "responses": [
+        "Learning guitar is a great idea! There are a lot of different options out there depending on your budget and music preferences.",
+        "The type of guitar you should get depends on what kind of music you want to play and your budget. Let me know if you want any help researching.",
+        "Practice makes perfect! Try starting with basic chords and simple songs to build your skills.",
+        "I'm excited for you too! Let me know if you need any help or have any questions.",
+        "Starting out as a beginner can be daunting, but it's all about taking small steps and building your skills over time."
+      ]
+    },
+     {
+      "tag": "helping",
+      "patterns": [
+        "Is there anything I can do to help?",
+        "Do you need any assistance?",
+        "Can I lend a hand?",
+        "How can I support you?",
+        "What can I do to make things easier?",
+        "Would you like some help?",
+        "Do you need someone to talk to?",
+        "Can I help you brainstorm ideas?",
+        "Let me know if there's anything I can do."
+      ],
+      "responses": [
+        "I'm here for you. Let me know what you need.",
+        "Of course, I'm happy to help in any way I can.",
+        "Absolutely. What can I do?",
+        "I'm glad you asked. Let's work on this together.",
+        "Don't hesitate to ask for help when you need it.",
+        "I'm all ears. What's on your mind?",
+        "We can come up with some solutions together. What are you thinking?",
+        "I'm here to support you. What can I do?",
+        "No problem, I'm happy to brainstorm ideas and help you out."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": [
+        "Thank you",
+        "Thank you so much",
+        "I really appreciate your help",
+        "You're a lifesaver",
+        "I couldn't have done it without you",
+        "Thanks for being there for me",
+        "You're amazing",
+        "I'm so grateful for your assistance",
+        "Thank you for everything",
+        "You're the best"
+      ],
+      "responses": [
+        "You're welcome. I'm glad I could be of help.",
+        "It was my pleasure. Anytime you need help, just let me know.",
+        "No problem at all. I'm happy to help out a friend.",
+        "You did a great job too. I'm glad we were able to work together.",
+        "You're too kind. I'm just glad I could make a difference.",
+        "It's always a pleasure to help someone in need.",
+        "I'm glad I could be there for you when you needed it most.",
+        "You're amazing too. Keep up the good work!",
+        "Anytime. I'm here to support you whenever you need it."
+      ]
+    },
+      {
+      "tag": "experiencing_new_things",
+      "patterns": [
+        "Have you tried",
+        "Have you been to",
+        "Do you know about",
+        "Have you heard of",
+        "What do you think of",
+        "Have you experienced",
+        "Have you visited",
+        "Have you seen",
+        "Have you tasted",
+        "What do you think about",
+        "Do you recommend",
+        "What's your opinion on"
+      ],
+      "responses": [
+        "Yeah, it's really good. They have a lot of unique dishes that you won't find anywhere else.",
+        "It's definitely worth trying if you're looking for something new and different.",
+        "I highly recommend it. You won't be disappointed.",
+        "I've been there a few times and I always enjoy it. The atmosphere is great and the food is delicious."
+      ]
+    },
+    {
+      "tag": "relaxing_or_taking_a_break",
+      "patterns": [
+        "I'm feeling stressed",
+        "I'm feeling overwhelmed",
+        "I need a break",
+        "I need to relax",
+        "I need to take some time off",
+        "I'm feeling burnt out",
+        "I'm feeling exhausted",
+        "I'm feeling anxious",
+        "I need to unwind",
+        "I need to destress"
+      ],
+      "responses": [
+        "Maybe you can try meditating or taking a yoga class.",
+        "Taking a walk in nature can be really relaxing and rejuvenating.",
+        "Have you tried deep breathing exercises? They can help calm your mind and body.",
+        "A warm bath or shower can help ease your stress and tension.",
+        "Reading a book or listening to calming music can help you unwind and relax."
+      ]
+    },
+      {
+      "tag": "new_experience",
+      "patterns": [
+        "I tried something new today",
+        "I did something I've never done before",
+        "I went on an adventure",
+        "I explored a new place",
+        "I tried a new food",
+        "I learned a new skill",
+        "I met someone new today",
+        "I did something out of my comfort zone"
+      ],
+      "responses": [
+        "That sounds exciting! What was it like?",
+        "Wow, good for you! What did you think of it?",
+        "Amazing! What did you learn from the experience?",
+        "Sounds like you had a great time! Tell me more about it.",
+        "I'm proud of you for trying something new! How did it go?",
+        "That's awesome! What made you decide to try it?",
+        "That's so cool! Would you recommend it to others?"
+      ]
+    },
+    {
+      "tag": "relaxation",
+      "patterns": [
+        "I need a break",
+        "I'm feeling stressed",
+        "I want to relax",
+        "I need some downtime",
+        "I want to unwind",
+        "I'm exhausted",
+        "I need some me-time",
+        "I need a vacation"
+      ],
+      "responses": [
+        "Take a deep breath and try to relax. Is there anything I can do to help?",
+        "I'm sorry to hear that. What can you do to unwind?",
+        "You deserve some rest and relaxation. What helps you feel calm?",
+        "I understand how you feel. Have you tried taking a break or doing something you enjoy?",
+        "You're not alone. Is there anything I can do to support you?",
+        "It's important to take care of yourself. What are some things you enjoy doing?",
+        "You deserve a break! What can you do to recharge?"
+      ]
+    },
+      {
+      "tag": "appreciating_the_present_moment",
+      "patterns": [
+        "It's a beautiful day",
+        "I'm enjoying this moment",
+        "I love this view",
+        "I'm so grateful for this experience",
+        "This is so peaceful",
+        "I'm just taking it all in",
+        "The little things in life make me happy",
+        "I'm thankful for my health and happiness",
+        "I'm appreciating the present moment"
+      ],
+      "responses": [
+        "Yes, it's important to appreciate the present moment",
+        "It's great to hear you're enjoying yourself",
+        "I agree, the little things can bring the most joy",
+        "Being grateful for what we have is a good mindset",
+        "That's a great attitude to have towards life"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns":
+       [
+        "feeling lonely",
+        "i am depressed",
+        "it's end",
+        "it's over",
+        "i am hopeless",
+        "bad news",
+        "it's hard to keep going",
+        "I have lost",
+        "it's paining",
+        "it hurts",
+        "it's hurting"
+      ],
+      "responses": 
+      [
+        "don't worry it will be alright",
+        "don't worry",
+        "there might be an end for this",
+        "life is a pack of emotions so be calm ",
+        "don't do anything wrong",
+        "sit peacefully",
+        "calm down your saddness"
+    ]
+    },
+    {
+      "tag":"sadness_Loss",
+      "patterns":[
+        "I lost my job",
+        "my pet died",
+        "I lost someone I love",
+        "I'm moving away from home",
+        "I failed an important exam"
+      ],
+      "responses":[
+        "I'm so sorry for your loss",
+        "Sometimes it's some what tough to accept",
+        "I can't imagine how difficult this must be for you",
+        "It's okay to feel sad and take time to heal",
+        "Moving away from home can be tough,but you'll make new memories",
+        "Don't worry , you'll get another chance to succeed"
+      ]
+    },
+    {
+      "tag":"sadness_General",
+      "patterns":[
+        "I'm feeling down",
+        "I'm having a bad day",
+        "I'm feeling overwhelmed",
+        "I'm struggling with my mental health",
+        "I'm going through a tough time",
+        "I'm feeling lost"
+      ],
+      "responses":[
+
+        "I'm sorry to hear that,would you like to talk about it?",
+        "It's okay to not br okay,take care of yourself",
+        "Remember that things will get better, even if it doesn't feel like it now",
+        "I'm here for you, let me know if there's anything I can do to help",
+        "It's okay to feel lost sometimes, take some time to reflect on what you want"
+      ]
+    },
+    {
+      "tag": "neutral",
+      "patterns":
+       [
+        "i felt mild boredom",
+        "meeting is scheduled",
+        "I have a meeting"
+      ],
+      "responses": 
+      [
+        "You are looking normal",
+        "make the things that makes you happy",
+        "you are an emotional controller"
+    ]
+    },
+    {
+      "tag":"neutral_smalltalk",
+      "patterns":[
+        "How are you?",
+        "What's up?",
+        "How's your day going?",
+        "Nice weather we're having,huh?",
+        "How's your week been?",
+        "What have you been up to?"
+      ],
+      "responses":[
+        "I'm good , thank's for asking.How about you?",
+        "Not much, just busy as usual.How about you?",
+        "It's going pretty well, thanks for asking. How about you?",
+        "Yeah, it's a beautiful day. How's your day going?",
+        "It's been good, thanks for asking. How about you?",
+        "Not much, just keeping busy.How about you?"
+      ]
+    },
+      {
+      "tag": "no_particular_events",
+      "patterns": [
+        "Nothing much",
+        "Just hanging out",
+        "Nothing new to report",
+        "Same old, same old",
+        "Nothing exciting going on",
+        "Just taking it easy",
+        "No plans today"
+      ],
+      "responses": [
+        "That's alright, sometimes it's nice to just take a break from everything",
+        "I know the feeling, sometimes it's good to have a slow day",
+        "Sometimes it's the simple things that bring the most peace",
+        "I get it, sometimes we all need a break from the craziness of life",
+        "That sounds relaxing, sometimes we just need to take it easy",
+        "No worries, sometimes it's nice to just go with the flow"
+      ]
+    }
+
+
+  ]
+}
